@@ -1,6 +1,6 @@
-#include "Zamovnyk.h"
+#include "ZamovnykClass.h"
 #include <iostream>
-#include "Zamovlenia.h"
+#include "ZamovleniaClass.h"
 #include "typedef.h"
 using namespace std;
 

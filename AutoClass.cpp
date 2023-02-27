@@ -1,4 +1,4 @@
-#include "Auto.h"
+#include "AutoClass.h"
 #include <iostream>
 
 using namespace std;;

@@ -1,5 +1,5 @@
 #pragma once
-#include "Transport.h"
+#include "TransportClass.h"
 #include <iostream>
 #include "typedef.h"
 using namespace std;

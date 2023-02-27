@@ -1,6 +1,6 @@
-#include "Zamovlenia.h"
+#include "ZamovleniaClass.h"
 #include <iostream>
-#include "ListTransport.h"
+#include "ListTransportClass.h"
 using namespace std;
 
 

@@ -1,12 +1,12 @@
 #pragma once
 #include <iostream>
 #include "typedef.h"
-#include "Auto.h"
-#include "Bike.h"
-#include "Scooter.h"
-#include "Transport.h"
-#include "Zamovnyk.h"
-#include "Zamovlenia.h"
+#include "AutoClass.h"
+#include "BikeClass.h"
+#include "ScooterClass.h"
+#include "TransportClass.h"
+#include "ZamovnykClass.h"
+#include "ZamovleniaClass.h"
 using namespace std;
 
 class ListTransport

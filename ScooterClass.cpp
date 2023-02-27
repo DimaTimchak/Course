@@ -1,4 +1,4 @@
-#include "Scooter.h"
+#include "ScooterClass.h"
 #include <iostream>
 
 using namespace std;
