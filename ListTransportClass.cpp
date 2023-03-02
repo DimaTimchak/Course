@@ -1,6 +1,6 @@
 #include "ListTransportClass.h"
 #include <iostream>
-
+#include <Windows.h>
 using namespace std;
 
  
@@ -421,3 +421,40 @@ pTrans3 ListTransport::SearchScooterInt(int T)
 		cout << "Такого електросамоката немає" << endl;
 		return NULL;
 	}
+// delete 
+void ListTransport::DeleteZamovleniaAuto()
+{
+	pZamovlenia temp5 = start5;
+	start5 = start5->Next5();
+	delete temp5;
+	Size5--;
+}
+void ListTransport::DeleteAuto()
+{
+	pTrans1 temp1 = start1;
+	start1 = start1->Next1();
+	delete temp1;
+	Size1--;
+
+}
+void ListTransport::DeleteZamovnyk()
+{
+	pZamovnyk temp4 = start4;
+	start4 = start4->Next4();
+	delete temp4;
+	Size4--;
+}
+void ListTransport::DeleteBike()
+{
+	pTrans2 temp2 = start2;
+	start2 = start2->Next2();
+	delete temp2;
+	Size2--;
+}
+void ListTransport::DeleteScooter()
+{
+	pTrans3 temp3 = start3;
+	start3 = start3->Next3();
+	delete temp3;
+	Size3--;
+}

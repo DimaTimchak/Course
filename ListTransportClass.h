@@ -31,6 +31,13 @@ public:
 	void OutputAllTwo();
 	void OutputAllThre();
 	void OutputAllZamovnyk();
+	//Delete
+	void DeleteZamovleniaAuto();
+	void DeleteAuto();
+	void DeleteZamovnyk();
+	void DeleteBike();
+	void DeleteScooter();
+	// 
 	//----------------SEARCH---------------------
 	pZamovnyk SearchZamovnykString(string T);
 	pZamovnyk SearchZamovnykFloat(float T);

@@ -29,6 +29,7 @@ int main(int argc, char** argv)
 			cout << "5. Добавити нового замовника" << endl;
 			cout << "6. Вивести список замовників" << endl;
 			cout << "7. Пошук замовника за ознакою" << endl;
+			cout << "9. Вихід з програми" << endl;
 			break;
 		case 2:
 			while (true)
@@ -232,9 +233,16 @@ int main(int argc, char** argv)
 		case 8:
 			obj.AddZamovleniaAuto();
 			break;
+		case 9:
+			return false;
 		}
 
 	}
+	obj.DeleteZamovleniaAuto();
+	obj.DeleteAuto();
+	obj.DeleteZamovnyk();
+	obj.DeleteBike();
+	obj.DeleteScooter();
 	return 0;
 }
 
